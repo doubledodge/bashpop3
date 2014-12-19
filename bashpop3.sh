@@ -1,7 +1,21 @@
 #!/bin/bash
-# Script automates telnet POP3 mail management based on a script at 
-# http://stackoverflow.com/questions/5911032/whats-the-best-method-for-retrieving-sender-subject-from-a-pop3-acct-via-the-c
-
+#         ***        BAHSPOP3         ***
+# A script that allows the user to manage mail on a POP3 server prior to downloading it 
+#    Copyright (C) 2014  Bob Anderson
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+# This script adapts code written by Seth Robertson - see the documentation for further information
 STATE=1
 USER=your@email.co.uk
 echo "enter password for this POP3 email connecton"
